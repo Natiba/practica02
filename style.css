@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(/back.jpg);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .container {
+    background: rgba(65, 135, 154, 0.966);
+    height: 100%;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 3%;
+    font-size: 2.8em;
+    color: #fff;
+  }
+  
+  .titles {
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+  }
+  
+  ol > li {
+    color: rgb(196, 233, 236);
+    padding: 0.2%;
+    font-size: 1.6em;
+    font-weight: 600;
+  }
+  
+  ol > li:hover {
+      color: greenyellow;
+  }
+  
+  p {
+    color: #fff;
+    font-style: italic;
+    font-size: 1.4em;
+    margin-left: 0.2%;
+    padding: 1% 0 3%;
+  }
+  
+  span {
+    color: rgb(147, 52, 52);
+    font-weight: bold;
+    font-size: 1.4em;
+  }
+  
+  /* BEFORE ICONS */
+  
+  .address:before {
+      content: "🏠";
+    
+  }
+  
+  .dog:before {
+    content: "🐶";
+  }
+  
+  .minutes:before {
+    content: "⏰";
+  }
+  
+  .kms:before {
+      content: "🚗";
+  }
+  
+  .triangle:before {
+    content: "🔺";
+  }
+  
+  .perimeter:before {
+    content: "📐";
+  }
+  
+  .percentage:before {
+    content: "🔣";
+  }
+  
+  .increase:before {
+    content: "👍🏻";
+  }
+  
+  .degrees:before {
+    content: "🌡️";
+  }
+  
+  .multiples:before {
+      content: "❌";
+  }
+  
+  .seconds:before {
+      content: "⏳ ";
+  }
+  
+  footer p {
+    padding: 2%;
+    color: greenyellow;
+    font-weight: 600;
+    text-align: center;
+  }
+  
